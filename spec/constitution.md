@@ -1,5 +1,3 @@
-# Hiến pháp dự án (constitution)
-
 Bảy nguyên tắc dưới đây áp dụng cho quá trình phát triển project. Nếu một thay đổi không đáp ứng nguyên tắc nào, cần điều chỉnh hoặc ghi rõ lý do ngoại lệ.
 
 1. **Ưu tiên tính đúng đắn.** Bộ kiểm tra độc lập phải tự xác minh tính hợp lệ và tính lại chi phí hoặc giá trị của từng lời giải; không dựa vào con số do solver tự báo.
