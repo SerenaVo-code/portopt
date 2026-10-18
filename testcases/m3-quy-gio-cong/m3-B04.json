@@ -1,0 +1,32 @@
+{
+ "id": "m3-B04",
+ "module": "m3",
+ "group": "bien",
+ "title": "Giá trị bằng 0",
+ "desc": "Yêu cầu giá trị 0 không bao giờ cần lấy; không được làm hỏng truy vết.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 3,
+    "v": 0
+   },
+   {
+    "name": "Y2",
+    "w": 4,
+    "v": 25
+   },
+   {
+    "name": "Y3",
+    "w": 2,
+    "v": 0
+   }
+  ],
+  "W": 6
+ },
+ "expect": {
+  "opt": 25,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

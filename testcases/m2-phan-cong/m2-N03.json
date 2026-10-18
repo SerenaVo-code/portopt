@@ -1,0 +1,51 @@
+{
+ "id": "m2-N03",
+ "module": "m2",
+ "group": "nho",
+ "title": "3 tàu rời nhau, 1 đội",
+ "desc": "Một đội đảm nhận tất cả, chi phí = đơn giá × tổng giờ.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 2,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 3,
+    "e": 5,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 6,
+    "e": 9,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 50
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 350,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

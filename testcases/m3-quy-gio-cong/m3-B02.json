@@ -1,0 +1,32 @@
+{
+ "id": "m3-B02",
+ "module": "m3",
+ "group": "bien",
+ "title": "Yêu cầu có w đúng bằng quỹ",
+ "desc": "Biên w = W: vẫn lấy được.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 10,
+    "v": 100
+   },
+   {
+    "name": "Y2",
+    "w": 4,
+    "v": 30
+   },
+   {
+    "name": "Y3",
+    "w": 6,
+    "v": 50
+   }
+  ],
+  "W": 10
+ },
+ "expect": {
+  "opt": 100,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

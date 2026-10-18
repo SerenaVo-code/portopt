@@ -1,0 +1,37 @@
+{
+ "id": "m3-D01",
+ "module": "m3",
+ "group": "dac-biet",
+ "title": "Cùng giá trị/giờ (hoà)",
+ "desc": "Mọi yêu cầu cùng tỉ lệ: nhiều nghiệm tối ưu.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 2,
+    "v": 20
+   },
+   {
+    "name": "Y2",
+    "w": 3,
+    "v": 30
+   },
+   {
+    "name": "Y3",
+    "w": 5,
+    "v": 50
+   },
+   {
+    "name": "Y4",
+    "w": 4,
+    "v": 40
+   }
+  ],
+  "W": 7
+ },
+ "expect": {
+  "opt": 70,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

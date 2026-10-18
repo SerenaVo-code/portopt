@@ -1,0 +1,44 @@
+{
+ "id": "m1-N04",
+ "module": "m1",
+ "group": "nho",
+ "title": "5 tàu hỗn hợp",
+ "desc": "Có cả cặp chồng giờ lẫn cặp rời nhau.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 0,
+    "e": 3
+   },
+   {
+    "name": "Tàu 2",
+    "s": 2,
+    "e": 6
+   },
+   {
+    "name": "Tàu 3",
+    "s": 7,
+    "e": 9
+   },
+   {
+    "name": "Tàu 4",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 5",
+    "s": 13,
+    "e": 15
+   }
+  ],
+  "pairs": [],
+  "F": 60,
+  "r": 12
+ },
+ "expect": {
+  "opt": 384,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

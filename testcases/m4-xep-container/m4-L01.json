@@ -1,0 +1,89 @@
+{
+ "id": "m4-L01",
+ "module": "m4",
+ "group": "lon",
+ "title": "18 lô dựng sẵn (tối ưu = 6)",
+ "desc": "Chia 6 thùng đúng tải trọng 30 thành 3 mảnh rồi xáo trộn: tối ưu biết trước là 6 = cận dưới.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 1
+   },
+   {
+    "name": "C2",
+    "w": 4
+   },
+   {
+    "name": "C3",
+    "w": 13
+   },
+   {
+    "name": "C4",
+    "w": 5
+   },
+   {
+    "name": "C5",
+    "w": 15
+   },
+   {
+    "name": "C6",
+    "w": 8
+   },
+   {
+    "name": "C7",
+    "w": 4
+   },
+   {
+    "name": "C8",
+    "w": 10
+   },
+   {
+    "name": "C9",
+    "w": 20
+   },
+   {
+    "name": "C10",
+    "w": 15
+   },
+   {
+    "name": "C11",
+    "w": 12
+   },
+   {
+    "name": "C12",
+    "w": 9
+   },
+   {
+    "name": "C13",
+    "w": 13
+   },
+   {
+    "name": "C14",
+    "w": 15
+   },
+   {
+    "name": "C15",
+    "w": 11
+   },
+   {
+    "name": "C16",
+    "w": 6
+   },
+   {
+    "name": "C17",
+    "w": 10
+   },
+   {
+    "name": "C18",
+    "w": 9
+   }
+  ],
+  "C": 30
+ },
+ "expect": {
+  "opt": 6,
+  "opt_source": "dựng sẵn",
+  "status": 200
+ }
+}

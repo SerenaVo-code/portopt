@@ -1,0 +1,49 @@
+{
+ "id": "m1-B06",
+ "module": "m1",
+ "group": "bien",
+ "title": "F = 0 và r = 0",
+ "desc": "Mọi phương án đều chi phí 0.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 21.5,
+    "e": 26.5
+   },
+   {
+    "name": "Tàu 2",
+    "s": 16.0,
+    "e": 21.5
+   },
+   {
+    "name": "Tàu 3",
+    "s": 10.0,
+    "e": 14.0
+   },
+   {
+    "name": "Tàu 4",
+    "s": 17.0,
+    "e": 20.0
+   },
+   {
+    "name": "Tàu 5",
+    "s": 3.0,
+    "e": 8.0
+   },
+   {
+    "name": "Tàu 6",
+    "s": 12.5,
+    "e": 16.0
+   }
+  ],
+  "pairs": [],
+  "F": 0,
+  "r": 0
+ },
+ "expect": {
+  "opt": 0,
+  "opt_source": "công thức",
+  "status": 200
+ }
+}

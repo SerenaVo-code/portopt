@@ -1,0 +1,32 @@
+{
+ "id": "m3-T02",
+ "module": "m3",
+ "group": "thuong",
+ "title": "Mẫu kinh điển 3 vật",
+ "desc": "Giá trị 60/100/120, khối lượng 10/20/30, quỹ 50: đáp án 220.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 10,
+    "v": 60
+   },
+   {
+    "name": "Y2",
+    "w": 20,
+    "v": 100
+   },
+   {
+    "name": "Y3",
+    "w": 30,
+    "v": 120
+   }
+  ],
+  "W": 50
+ },
+ "expect": {
+  "opt": 220,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

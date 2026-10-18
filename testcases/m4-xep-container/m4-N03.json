@@ -1,0 +1,29 @@
+{
+ "id": "m4-N03",
+ "module": "m4",
+ "group": "nho",
+ "title": "3 lô, mỗi lô hơn nửa thùng",
+ "desc": "Không ghép được cặp nào: 3 thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 6
+   },
+   {
+    "name": "C2",
+    "w": 7
+   },
+   {
+    "name": "C3",
+    "w": 8
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 3,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

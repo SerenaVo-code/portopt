@@ -1,0 +1,320 @@
+{
+ "id": "m2-L04",
+ "module": "m2",
+ "group": "lon",
+ "title": "32 tàu, vô nghiệm do 7 tàu cùng cập, chỉ 6 đội",
+ "desc": "Điều kiện cần (khớp hai phía) phát hiện vô nghiệm ngay mà không phải duyệt 6^32 cách.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T4",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T5",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T6",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T7",
+    "s": 0,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T8",
+    "s": 10,
+    "e": 12,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T9",
+    "s": 13,
+    "e": 15,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T10",
+    "s": 16,
+    "e": 18,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T11",
+    "s": 19,
+    "e": 21,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T12",
+    "s": 22,
+    "e": 24,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T13",
+    "s": 25,
+    "e": 27,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T14",
+    "s": 28,
+    "e": 30,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T15",
+    "s": 31,
+    "e": 33,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T16",
+    "s": 34,
+    "e": 36,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T17",
+    "s": 37,
+    "e": 39,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T18",
+    "s": 40,
+    "e": 42,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T19",
+    "s": 43,
+    "e": 45,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T20",
+    "s": 46,
+    "e": 48,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T21",
+    "s": 49,
+    "e": 51,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T22",
+    "s": 52,
+    "e": 54,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T23",
+    "s": 55,
+    "e": 57,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T24",
+    "s": 58,
+    "e": 60,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T25",
+    "s": 61,
+    "e": 63,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T26",
+    "s": 64,
+    "e": 66,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T27",
+    "s": 67,
+    "e": 69,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T28",
+    "s": 70,
+    "e": 72,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T29",
+    "s": 73,
+    "e": 75,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T30",
+    "s": 76,
+    "e": 78,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T31",
+    "s": 79,
+    "e": 81,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T32",
+    "s": 82,
+    "e": 84,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 110
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 120
+   },
+   {
+    "name": "Đội 4",
+    "skills": [
+     "boc"
+    ],
+    "rate": 130
+   },
+   {
+    "name": "Đội 5",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 140
+   },
+   {
+    "name": "Đội 6",
+    "skills": [
+     "boc"
+    ],
+    "rate": 150
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "feasible": false,
+  "opt": null,
+  "status": 200
+ }
+}

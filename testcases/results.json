@@ -1,0 +1,2394 @@
+[
+ {
+  "id": "m1-B01",
+  "module": "m1",
+  "group": "bien",
+  "title": "Chỉ 1 tàu",
+  "size": "1 tàu",
+  "wall_ms": 0.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 140.0,
+    "ms": 0.05
+   },
+   "best": {
+    "result": 140.0,
+    "ms": 0.05
+   },
+   "dsatur": {
+    "result": 140.0,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 140.0,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B02",
+  "module": "m1",
+  "group": "bien",
+  "title": "Hai tàu chạm đầu mút (rời = đến)",
+  "size": "2 tàu",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 180.0,
+    "ms": 0.04
+   },
+   "best": {
+    "result": 180.0,
+    "ms": 0.03
+   },
+   "dsatur": {
+    "result": 180.0,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 180.0,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B03",
+  "module": "m1",
+  "group": "bien",
+  "title": "Hai tàu chồng sát 0,5 giờ",
+  "size": "2 tàu",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 285.0,
+    "ms": 0.03
+   },
+   "best": {
+    "result": 285.0,
+    "ms": 0.03
+   },
+   "dsatur": {
+    "result": 285.0,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 285.0,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B04",
+  "module": "m1",
+  "group": "bien",
+  "title": "F = 0",
+  "size": "12 tàu",
+  "wall_ms": 2.0,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 374.5,
+    "ms": 0.54
+   },
+   "best": {
+    "result": 269.5,
+    "ms": 0.74
+   },
+   "dsatur": {
+    "result": 392.0,
+    "ms": 0.4
+   },
+   "bt": {
+    "result": 269.5,
+    "ms": 0.25
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B05",
+  "module": "m1",
+  "group": "bien",
+  "title": "r = 0",
+  "size": "15 tàu",
+  "wall_ms": 2.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 200.0,
+    "ms": 0.68
+   },
+   "best": {
+    "result": 200.0,
+    "ms": 0.52
+   },
+   "dsatur": {
+    "result": 200.0,
+    "ms": 0.71
+   },
+   "bt": {
+    "result": 200.0,
+    "ms": 0.33
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B06",
+  "module": "m1",
+  "group": "bien",
+  "title": "F = 0 và r = 0",
+  "size": "6 tàu",
+  "wall_ms": 0.4,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 0.0,
+    "ms": 0.11
+   },
+   "best": {
+    "result": 0.0,
+    "ms": 0.11
+   },
+   "dsatur": {
+    "result": 0.0,
+    "ms": 0.1
+   },
+   "bt": {
+    "result": 0.0,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B07",
+  "module": "m1",
+  "group": "bien",
+  "title": "Tàu qua đêm (giờ > 24)",
+  "size": "4 tàu",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 600.0,
+    "ms": 0.06
+   },
+   "best": {
+    "result": 530.0,
+    "ms": 0.07
+   },
+   "dsatur": {
+    "result": 600.0,
+    "ms": 0.06
+   },
+   "bt": {
+    "result": 530.0,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B08",
+  "module": "m1",
+  "group": "bien",
+  "title": "Giờ lẻ 0,25",
+  "size": "4 tàu",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 256.25,
+    "ms": 0.07
+   },
+   "best": {
+    "result": 256.25,
+    "ms": 0.07
+   },
+   "dsatur": {
+    "result": 265.625,
+    "ms": 0.06
+   },
+   "bt": {
+    "result": 256.25,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-B09",
+  "module": "m1",
+  "group": "bien",
+  "title": "F rất lớn so với r",
+  "size": "9 tàu",
+  "wall_ms": 2.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 40040.0,
+    "ms": 0.25
+   },
+   "best": {
+    "result": 40037.5,
+    "ms": 0.29
+   },
+   "dsatur": {
+    "result": 40042.0,
+    "ms": 0.3
+   },
+   "bt": {
+    "result": 40037.5,
+    "ms": 1.42
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D01",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "10 tàu trùng giờ hoàn toàn",
+  "size": "10 tàu",
+  "wall_ms": 0.9,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1400.0,
+    "ms": 0.22
+   },
+   "best": {
+    "result": 1400.0,
+    "ms": 0.2
+   },
+   "dsatur": {
+    "result": 1400.0,
+    "ms": 0.22
+   },
+   "bt": {
+    "result": 1400.0,
+    "ms": 0.26
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D02",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "10 tàu nối đuôi không chồng",
+  "size": "10 tàu",
+  "wall_ms": 0.7,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 560.0,
+    "ms": 0.19
+   },
+   "best": {
+    "result": 560.0,
+    "ms": 0.2
+   },
+   "dsatur": {
+    "result": 560.0,
+    "ms": 0.21
+   },
+   "bt": {
+    "result": 560.0,
+    "ms": 0.12
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D03",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "Chu trình lẻ C5 do ràng buộc thêm",
+  "size": "5 tàu",
+  "wall_ms": 0.4,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 390.0,
+    "ms": 0.09
+   },
+   "best": {
+    "result": 390.0,
+    "ms": 0.08
+   },
+   "dsatur": {
+    "result": 390.0,
+    "ms": 0.08
+   },
+   "bt": {
+    "result": 390.0,
+    "ms": 0.17
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D04",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "Cặp ràng buộc lặp, đảo chiều và tự thân",
+  "size": "4 tàu",
+  "wall_ms": 0.4,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 265.0,
+    "ms": 0.07
+   },
+   "best": {
+    "result": 250.0,
+    "ms": 0.12
+   },
+   "dsatur": {
+    "result": 265.0,
+    "ms": 0.07
+   },
+   "bt": {
+    "result": 250.0,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D05",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "Mọi cặp bị cấm (K6 do ràng buộc)",
+  "size": "6 tàu",
+  "wall_ms": 0.9,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 660.0,
+    "ms": 0.16
+   },
+   "best": {
+    "result": 660.0,
+    "ms": 0.16
+   },
+   "dsatur": {
+    "result": 660.0,
+    "ms": 0.26
+   },
+   "bt": {
+    "result": 660.0,
+    "ms": 0.25
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-D06",
+  "module": "m1",
+  "group": "dac-biet",
+  "title": "Cùng giờ đến, khác giờ rời",
+  "size": "5 tàu",
+  "wall_ms": 1.6,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 550.0,
+    "ms": 0.18
+   },
+   "best": {
+    "result": 520.0,
+    "ms": 0.12
+   },
+   "dsatur": {
+    "result": 550.0,
+    "ms": 0.11
+   },
+   "bt": {
+    "result": 520.0,
+    "ms": 1.16
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-L01",
+  "module": "m1",
+  "group": "lon",
+  "title": "30 tàu ngẫu nhiên",
+  "size": "30 tàu",
+  "wall_ms": 1519.9,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian (không có đáp án tham chiếu)",
+  "algos": {
+   "greedy": {
+    "result": 3640.0,
+    "ms": 4.3
+   },
+   "best": {
+    "result": 3095.0,
+    "ms": 4.79
+   },
+   "dsatur": {
+    "result": 3540.0,
+    "ms": 3.85
+   },
+   "bt": {
+    "result": 3095.0,
+    "ms": 1506.88
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-L02",
+  "module": "m1",
+  "group": "lon",
+  "title": "100 tàu, r = 0",
+  "size": "100 tàu",
+  "wall_ms": 143.7,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1020.0,
+    "ms": 35.05
+   },
+   "best": {
+    "result": 1020.0,
+    "ms": 33.53
+   },
+   "dsatur": {
+    "result": 1020.0,
+    "ms": 70.21
+   },
+   "bt": {
+    "result": 1020.0,
+    "ms": 3.6
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-L03",
+  "module": "m1",
+  "group": "lon",
+  "title": "100 tàu, F = 0",
+  "size": "100 tàu",
+  "wall_ms": 357.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 3082.0,
+    "ms": 32.8
+   },
+   "best": {
+    "result": 2262.0,
+    "ms": 253.38
+   },
+   "dsatur": {
+    "result": 3078.0,
+    "ms": 42.69
+   },
+   "bt": {
+    "result": 2262.0,
+    "ms": 27.68
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-L04",
+  "module": "m1",
+  "group": "lon",
+  "title": "200 tàu (tối đa), ngẫu nhiên",
+  "size": "200 tàu",
+  "wall_ms": 2803.1,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian (không có đáp án tham chiếu)",
+  "algos": {
+   "greedy": {
+    "result": 27936.0,
+    "ms": 373.27
+   },
+   "best": {
+    "result": 23556.0,
+    "ms": 578.32
+   },
+   "dsatur": {
+    "result": 27870.0,
+    "ms": 324.6
+   },
+   "bt": {
+    "result": 23556.0,
+    "ms": 1523.1
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-L05",
+  "module": "m1",
+  "group": "lon",
+  "title": "200 tàu nối đuôi, F lớn",
+  "size": "200 tàu",
+  "wall_ms": 270.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 5599.0,
+    "ms": 65.49
+   },
+   "best": {
+    "result": 5599.0,
+    "ms": 52.65
+   },
+   "dsatur": {
+    "result": 5599.0,
+    "ms": 134.69
+   },
+   "bt": {
+    "result": 5599.0,
+    "ms": 11.54
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-N01",
+  "module": "m1",
+  "group": "nho",
+  "title": "2 tàu rời nhau",
+  "size": "2 tàu",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 135.0,
+    "ms": 0.05
+   },
+   "best": {
+    "result": 135.0,
+    "ms": 0.04
+   },
+   "dsatur": {
+    "result": 135.0,
+    "ms": 0.03
+   },
+   "bt": {
+    "result": 135.0,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-N02",
+  "module": "m1",
+  "group": "nho",
+  "title": "3 tàu chồng giờ hoàn toàn",
+  "size": "3 tàu",
+  "wall_ms": 0.7,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 270.0,
+    "ms": 0.07
+   },
+   "best": {
+    "result": 270.0,
+    "ms": 0.18
+   },
+   "dsatur": {
+    "result": 270.0,
+    "ms": 0.23
+   },
+   "bt": {
+    "result": 270.0,
+    "ms": 0.16
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-N03",
+  "module": "m1",
+  "group": "nho",
+  "title": "4 tàu nối chuỗi",
+  "size": "4 tàu",
+  "wall_ms": 1.0,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 320.0,
+    "ms": 0.4
+   },
+   "best": {
+    "result": 320.0,
+    "ms": 0.1
+   },
+   "dsatur": {
+    "result": 320.0,
+    "ms": 0.19
+   },
+   "bt": {
+    "result": 320.0,
+    "ms": 0.28
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-N04",
+  "module": "m1",
+  "group": "nho",
+  "title": "5 tàu hỗn hợp",
+  "size": "5 tàu",
+  "wall_ms": 1.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 420.0,
+    "ms": 0.2
+   },
+   "best": {
+    "result": 384.0,
+    "ms": 0.44
+   },
+   "dsatur": {
+    "result": 420.0,
+    "ms": 0.64
+   },
+   "bt": {
+    "result": 384.0,
+    "ms": 0.48
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-T01",
+  "module": "m1",
+  "group": "thuong",
+  "title": "Mẫu cơ bản (7 tàu, 1 cặp ràng buộc)",
+  "size": "7 tàu",
+  "wall_ms": 4.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 2700.0,
+    "ms": 0.62
+   },
+   "best": {
+    "result": 2580.0,
+    "ms": 0.53
+   },
+   "dsatur": {
+    "result": 2840.0,
+    "ms": 1.39
+   },
+   "bt": {
+    "result": 2580.0,
+    "ms": 2.24
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-T02",
+  "module": "m1",
+  "group": "thuong",
+  "title": "Bốn thuật toán cho bốn kết quả khác nhau",
+  "size": "8 tàu",
+  "wall_ms": 2.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 3400.0,
+    "ms": 0.69
+   },
+   "best": {
+    "result": 3340.0,
+    "ms": 0.54
+   },
+   "dsatur": {
+    "result": 3000.0,
+    "ms": 0.59
+   },
+   "bt": {
+    "result": 2900.0,
+    "ms": 0.4
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-T03",
+  "module": "m1",
+  "group": "thuong",
+  "title": "6 tàu ngẫu nhiên, không ràng buộc thêm",
+  "size": "6 tàu",
+  "wall_ms": 0.6,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1360.0,
+    "ms": 0.14
+   },
+   "best": {
+    "result": 1360.0,
+    "ms": 0.14
+   },
+   "dsatur": {
+    "result": 1370.0,
+    "ms": 0.12
+   },
+   "bt": {
+    "result": 1360.0,
+    "ms": 0.2
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-T04",
+  "module": "m1",
+  "group": "thuong",
+  "title": "8 tàu ngẫu nhiên, 3 cặp ràng buộc",
+  "size": "8 tàu",
+  "wall_ms": 3.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1155.0,
+    "ms": 0.18
+   },
+   "best": {
+    "result": 1155.0,
+    "ms": 0.6
+   },
+   "dsatur": {
+    "result": 1022.5,
+    "ms": 1.04
+   },
+   "bt": {
+    "result": 1022.5,
+    "ms": 1.38
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m1-T05",
+  "module": "m1",
+  "group": "thuong",
+  "title": "10 tàu ngẫu nhiên",
+  "size": "10 tàu",
+  "wall_ms": 10.9,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1005.0,
+    "ms": 0.78
+   },
+   "best": {
+    "result": 990.0,
+    "ms": 0.91
+   },
+   "dsatur": {
+    "result": 1005.0,
+    "ms": 1.13
+   },
+   "bt": {
+    "result": 990.0,
+    "ms": 8.0
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-B01",
+  "module": "m2",
+  "group": "bien",
+  "title": "Tàu nối đuôi (rời = đến)",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 800,
+    "ms": 0.07
+   },
+   "hard": {
+    "result": 800,
+    "ms": 0.03
+   },
+   "bt": {
+    "result": 800,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-B02",
+  "module": "m2",
+  "group": "bien",
+  "title": "Chồng sát 0,5 giờ",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1750.0,
+    "ms": 0.05
+   },
+   "hard": {
+    "result": 1750.0,
+    "ms": 0.04
+   },
+   "bt": {
+    "result": 1650.0,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-B03",
+  "module": "m2",
+  "group": "bien",
+  "title": "Đơn giá bằng 0",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 0,
+    "ms": 0.03
+   },
+   "hard": {
+    "result": 0,
+    "ms": 0.1
+   },
+   "bt": {
+    "result": 0,
+    "ms": 0.13
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-B04",
+  "module": "m2",
+  "group": "bien",
+  "title": "Các đội cùng đơn giá",
+  "size": "3 tàu × 3 đội",
+  "wall_ms": 0.6,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1200,
+    "ms": 0.31
+   },
+   "hard": {
+    "result": 1200,
+    "ms": 0.06
+   },
+   "bt": {
+    "result": 1200,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-B05",
+  "module": "m2",
+  "group": "bien",
+  "title": "Số đội đúng bằng số tàu chồng nhau",
+  "size": "3 tàu × 3 đội",
+  "wall_ms": 0.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 1200,
+    "ms": 0.06
+   },
+   "hard": {
+    "result": 1200,
+    "ms": 0.12
+   },
+   "bt": {
+    "result": 1200,
+    "ms": 0.46
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-D01",
+  "module": "m2",
+  "group": "dac-biet",
+  "title": "Vô nghiệm: thiếu kỹ năng",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "vô nghiệm, đã phát hiện đúng",
+  "algos": {
+   "greedy": {
+    "result": null,
+    "ms": 0.16
+   },
+   "hard": {
+    "result": null,
+    "ms": 0.04
+   },
+   "bt": {
+    "result": null,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-D02",
+  "module": "m2",
+  "group": "dac-biet",
+  "title": "Vô nghiệm: thiếu đội",
+  "size": "3 tàu × 2 đội",
+  "wall_ms": 0.7,
+  "errors": [],
+  "note": "vô nghiệm, đã phát hiện đúng",
+  "algos": {
+   "greedy": {
+    "result": null,
+    "ms": 0.2
+   },
+   "hard": {
+    "result": null,
+    "ms": 0.34
+   },
+   "bt": {
+    "result": null,
+    "ms": 0.14
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-D03",
+  "module": "m2",
+  "group": "dac-biet",
+  "title": "Đội rẻ nhất bị tranh nhiều",
+  "size": "4 tàu × 3 đội",
+  "wall_ms": 1.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 2080,
+    "ms": 0.12
+   },
+   "hard": {
+    "result": 2080,
+    "ms": 0.22
+   },
+   "bt": {
+    "result": 2080,
+    "ms": 0.68
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-D04",
+  "module": "m2",
+  "group": "dac-biet",
+  "title": "Tham lam theo giờ đến bị trượt nghiệm",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.5,
+  "errors": [],
+  "note": "Tham lam không gán được hết",
+  "algos": {
+   "greedy": {
+    "result": null,
+    "ms": 0.32
+   },
+   "hard": {
+    "result": 1000,
+    "ms": 0.09
+   },
+   "bt": {
+    "result": 1000,
+    "ms": 0.09
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-D05",
+  "module": "m2",
+  "group": "dac-biet",
+  "title": "Đội 'lạnh' rẻ hơn đội thường",
+  "size": "3 tàu × 2 đội",
+  "wall_ms": 0.7,
+  "errors": [],
+  "note": "Tham lam không gán được hết",
+  "algos": {
+   "greedy": {
+    "result": null,
+    "ms": 0.08
+   },
+   "hard": {
+    "result": 660,
+    "ms": 0.45
+   },
+   "bt": {
+    "result": 660,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-L01",
+  "module": "m2",
+  "group": "lon",
+  "title": "20 tàu, 6 đội",
+  "size": "20 tàu × 6 đội",
+  "wall_ms": 1501.3,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian (không có đáp án tham chiếu)",
+  "algos": {
+   "greedy": {
+    "result": 6780,
+    "ms": 0.48
+   },
+   "hard": {
+    "result": 6780,
+    "ms": 0.57
+   },
+   "bt": {
+    "result": 6740,
+    "ms": 1500.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-L02",
+  "module": "m2",
+  "group": "lon",
+  "title": "60 tàu nối đuôi (tối đa)",
+  "size": "60 tàu × 4 đội",
+  "wall_ms": 7.5,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 19800,
+    "ms": 1.95
+   },
+   "hard": {
+    "result": 19800,
+    "ms": 2.22
+   },
+   "bt": {
+    "result": 19800,
+    "ms": 2.56
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-L03",
+  "module": "m2",
+  "group": "lon",
+  "title": "40 tàu, 12 đội",
+  "size": "40 tàu × 12 đội",
+  "wall_ms": 1505.6,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian (không có đáp án tham chiếu)",
+  "algos": {
+   "greedy": {
+    "result": 12160,
+    "ms": 2.29
+   },
+   "hard": {
+    "result": 12040,
+    "ms": 2.35
+   },
+   "bt": {
+    "result": 12040,
+    "ms": 1500.43
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-L04",
+  "module": "m2",
+  "group": "lon",
+  "title": "32 tàu, vô nghiệm do 7 tàu cùng cập, chỉ 6 đội",
+  "size": "32 tàu × 6 đội",
+  "wall_ms": 2.5,
+  "errors": [],
+  "note": "vô nghiệm, đã phát hiện đúng",
+  "algos": {
+   "greedy": {
+    "result": null,
+    "ms": 0.96
+   },
+   "hard": {
+    "result": null,
+    "ms": 1.11
+   },
+   "bt": {
+    "result": null,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-N01",
+  "module": "m2",
+  "group": "nho",
+  "title": "1 tàu, 1 đội",
+  "size": "1 tàu × 1 đội",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 400,
+    "ms": 0.03
+   },
+   "hard": {
+    "result": 400,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 400,
+    "ms": 0.03
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-N02",
+  "module": "m2",
+  "group": "nho",
+  "title": "2 tàu trùng giờ, 2 đội",
+  "size": "2 tàu × 2 đội",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 880,
+    "ms": 0.04
+   },
+   "hard": {
+    "result": 880,
+    "ms": 0.03
+   },
+   "bt": {
+    "result": 880,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-N03",
+  "module": "m2",
+  "group": "nho",
+  "title": "3 tàu rời nhau, 1 đội",
+  "size": "3 tàu × 1 đội",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 350,
+    "ms": 0.04
+   },
+   "hard": {
+    "result": 350,
+    "ms": 0.03
+   },
+   "bt": {
+    "result": 350,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-T01",
+  "module": "m2",
+  "group": "thuong",
+  "title": "Mẫu chính (6 tàu, 4 đội)",
+  "size": "6 tàu × 4 đội",
+  "wall_ms": 0.8,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 3060,
+    "ms": 0.11
+   },
+   "hard": {
+    "result": 3060,
+    "ms": 0.14
+   },
+   "bt": {
+    "result": 3060,
+    "ms": 0.53
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-T02",
+  "module": "m2",
+  "group": "thuong",
+  "title": "Có cặp ràng buộc thêm",
+  "size": "6 tàu × 4 đội",
+  "wall_ms": 0.5,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 3110,
+    "ms": 0.1
+   },
+   "hard": {
+    "result": 3110,
+    "ms": 0.09
+   },
+   "bt": {
+    "result": 3100,
+    "ms": 0.29
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-T03",
+  "module": "m2",
+  "group": "thuong",
+  "title": "7 tàu ngẫu nhiên, 4 đội",
+  "size": "7 tàu × 4 đội",
+  "wall_ms": 1.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 2550,
+    "ms": 0.11
+   },
+   "hard": {
+    "result": 2490,
+    "ms": 0.1
+   },
+   "bt": {
+    "result": 2460,
+    "ms": 0.84
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m2-T04",
+  "module": "m2",
+  "group": "thuong",
+  "title": "8 tàu ngẫu nhiên, 5 đội",
+  "size": "8 tàu × 5 đội",
+  "wall_ms": 0.9,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 2630,
+    "ms": 0.14
+   },
+   "hard": {
+    "result": 2630,
+    "ms": 0.13
+   },
+   "bt": {
+    "result": 2620,
+    "ms": 0.55
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-B01",
+  "module": "m3",
+  "group": "bien",
+  "title": "Quỹ = 0",
+  "size": "2 yêu cầu, W=0",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 0,
+    "ms": 0.02
+   },
+   "dp": {
+    "result": 0,
+    "ms": 0.03
+   },
+   "bt": {
+    "result": 0,
+    "ms": 0.02
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-B02",
+  "module": "m3",
+  "group": "bien",
+  "title": "Yêu cầu có w đúng bằng quỹ",
+  "size": "3 yêu cầu, W=10",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 100,
+    "ms": 0.02
+   },
+   "dp": {
+    "result": 100,
+    "ms": 0.1
+   },
+   "bt": {
+    "result": 100,
+    "ms": 0.03
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-B03",
+  "module": "m3",
+  "group": "bien",
+  "title": "Mọi yêu cầu đều quá nặng",
+  "size": "3 yêu cầu, W=8",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 0,
+    "ms": 0.01
+   },
+   "dp": {
+    "result": 0,
+    "ms": 0.08
+   },
+   "bt": {
+    "result": 0,
+    "ms": 0.03
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-B04",
+  "module": "m3",
+  "group": "bien",
+  "title": "Giá trị bằng 0",
+  "size": "3 yêu cầu, W=6",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 25,
+    "ms": 0.02
+   },
+   "dp": {
+    "result": 25,
+    "ms": 0.11
+   },
+   "bt": {
+    "result": 25,
+    "ms": 0.03
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-B05",
+  "module": "m3",
+  "group": "bien",
+  "title": "Số ô DP đúng bằng giới hạn 4000",
+  "size": "20 yêu cầu, W=199",
+  "wall_ms": 12.8,
+  "errors": [],
+  "note": "tham lam thiếu 2",
+  "algos": {
+   "greedy": {
+    "result": 1170,
+    "ms": 0.04
+   },
+   "dp": {
+    "result": 1172,
+    "ms": 12.55
+   },
+   "bt": {
+    "result": 1172,
+    "ms": 0.17
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-D01",
+  "module": "m3",
+  "group": "dac-biet",
+  "title": "Cùng giá trị/giờ (hoà)",
+  "size": "4 yêu cầu, W=7",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "tham lam thiếu 20",
+  "algos": {
+   "greedy": {
+    "result": 50,
+    "ms": 0.04
+   },
+   "dp": {
+    "result": 70,
+    "ms": 0.09
+   },
+   "bt": {
+    "result": 70,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-D02",
+  "module": "m3",
+  "group": "dac-biet",
+  "title": "Bẫy tham lam",
+  "size": "3 yêu cầu, W=12",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "tham lam thiếu 23",
+  "algos": {
+   "greedy": {
+    "result": 43,
+    "ms": 0.01
+   },
+   "dp": {
+    "result": 66,
+    "ms": 0.11
+   },
+   "bt": {
+    "result": 66,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-D03",
+  "module": "m3",
+  "group": "dac-biet",
+  "title": "Giá trị lẻ (số thập phân)",
+  "size": "4 yêu cầu, W=8",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "tham lam thiếu 1.1",
+  "algos": {
+   "greedy": {
+    "result": 10.25,
+    "ms": 0.01
+   },
+   "dp": {
+    "result": 11.35,
+    "ms": 0.11
+   },
+   "bt": {
+    "result": 11.35,
+    "ms": 0.07
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-D04",
+  "module": "m3",
+  "group": "dac-biet",
+  "title": "Nhiều yêu cầu trùng hệt nhau",
+  "size": "6 yêu cầu, W=12",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 30,
+    "ms": 0.01
+   },
+   "dp": {
+    "result": 30,
+    "ms": 0.23
+   },
+   "bt": {
+    "result": 30,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-L01",
+  "module": "m3",
+  "group": "lon",
+  "title": "20 yêu cầu, quỹ 120",
+  "size": "20 yêu cầu, W=120",
+  "wall_ms": 7.5,
+  "errors": [],
+  "note": "tham lam thiếu 5",
+  "algos": {
+   "greedy": {
+    "result": 1562,
+    "ms": 0.04
+   },
+   "dp": {
+    "result": 1567,
+    "ms": 7.15
+   },
+   "bt": {
+    "result": 1567,
+    "ms": 0.25
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-L02",
+  "module": "m3",
+  "group": "lon",
+  "title": "25 yêu cầu (tối đa), quỹ 150",
+  "size": "25 yêu cầu, W=150",
+  "wall_ms": 12.4,
+  "errors": [],
+  "note": "tham lam thiếu 2",
+  "algos": {
+   "greedy": {
+    "result": 2167,
+    "ms": 0.05
+   },
+   "dp": {
+    "result": 2169,
+    "ms": 12.05
+   },
+   "bt": {
+    "result": 2169,
+    "ms": 0.32
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-L03",
+  "module": "m3",
+  "group": "lon",
+  "title": "25 yêu cầu tương quan mạnh (khó cho cận trên)",
+  "size": "25 yêu cầu, W=150",
+  "wall_ms": 15.6,
+  "errors": [],
+  "note": "tham lam thiếu 20",
+  "algos": {
+   "greedy": {
+    "result": 1499,
+    "ms": 0.07
+   },
+   "dp": {
+    "result": 1519,
+    "ms": 14.23
+   },
+   "bt": {
+    "result": 1519,
+    "ms": 1.3
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-N01",
+  "module": "m3",
+  "group": "nho",
+  "title": "1 yêu cầu vừa quỹ",
+  "size": "1 yêu cầu, W=8",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 40,
+    "ms": 0.03
+   },
+   "dp": {
+    "result": 40,
+    "ms": 0.07
+   },
+   "bt": {
+    "result": 40,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-N02",
+  "module": "m3",
+  "group": "nho",
+  "title": "2 yêu cầu, chỉ lấy được một",
+  "size": "2 yêu cầu, W=8",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 50,
+    "ms": 0.02
+   },
+   "dp": {
+    "result": 50,
+    "ms": 0.11
+   },
+   "bt": {
+    "result": 50,
+    "ms": 0.04
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-N03",
+  "module": "m3",
+  "group": "nho",
+  "title": "3 yêu cầu lấy hết",
+  "size": "3 yêu cầu, W=10",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 35,
+    "ms": 0.03
+   },
+   "dp": {
+    "result": 35,
+    "ms": 0.24
+   },
+   "bt": {
+    "result": 35,
+    "ms": 0.07
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-T01",
+  "module": "m3",
+  "group": "thuong",
+  "title": "Mẫu chính (4 yêu cầu, quỹ 8 giờ)",
+  "size": "4 yêu cầu, W=8",
+  "wall_ms": 0.4,
+  "errors": [],
+  "note": "tham lam thiếu 10",
+  "algos": {
+   "greedy": {
+    "result": 100,
+    "ms": 0.03
+   },
+   "dp": {
+    "result": 110,
+    "ms": 0.23
+   },
+   "bt": {
+    "result": 110,
+    "ms": 0.12
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-T02",
+  "module": "m3",
+  "group": "thuong",
+  "title": "Mẫu kinh điển 3 vật",
+  "size": "3 yêu cầu, W=50",
+  "wall_ms": 0.6,
+  "errors": [],
+  "note": "tham lam thiếu 60",
+  "algos": {
+   "greedy": {
+    "result": 160,
+    "ms": 0.01
+   },
+   "dp": {
+    "result": 220,
+    "ms": 0.48
+   },
+   "bt": {
+    "result": 220,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-T03",
+  "module": "m3",
+  "group": "thuong",
+  "title": "10 yêu cầu ngẫu nhiên",
+  "size": "10 yêu cầu, W=30",
+  "wall_ms": 1.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 263,
+    "ms": 0.03
+   },
+   "dp": {
+    "result": 263,
+    "ms": 0.97
+   },
+   "bt": {
+    "result": 263,
+    "ms": 0.08
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m3-T04",
+  "module": "m3",
+  "group": "thuong",
+  "title": "14 yêu cầu ngẫu nhiên",
+  "size": "14 yêu cầu, W=40",
+  "wall_ms": 2.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "greedy": {
+    "result": 516,
+    "ms": 0.03
+   },
+   "dp": {
+    "result": 516,
+    "ms": 2.05
+   },
+   "bt": {
+    "result": 516,
+    "ms": 0.13
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-B01",
+  "module": "m4",
+  "group": "bien",
+  "title": "Mọi lô đúng bằng tải trọng",
+  "size": "4 lô, C=10",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 4,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 4,
+    "ms": 0.03
+   },
+   "bfd": {
+    "result": 4,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 4,
+    "ms": 0.01
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-B02",
+  "module": "m4",
+  "group": "bien",
+  "title": "Hai lô cộng đúng bằng tải trọng",
+  "size": "6 lô, C=10",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "ffd": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "bt": {
+    "result": 3,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-B03",
+  "module": "m4",
+  "group": "bien",
+  "title": "Mọi lô rất nhỏ",
+  "size": "9 lô, C=10",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 1,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 1,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 1,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 1,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-B04",
+  "module": "m4",
+  "group": "bien",
+  "title": "Số thập phân gây sai số (0,1 + 0,2 + 0,3)",
+  "size": "3 lô, C=0.6",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 1,
+    "ms": 0.03
+   },
+   "ffd": {
+    "result": 1,
+    "ms": 0.02
+   },
+   "bfd": {
+    "result": 1,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 1,
+    "ms": 0.03
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-B05",
+  "module": "m4",
+  "group": "bien",
+  "title": "Khối lượng bằng 0,01 (rất nhỏ)",
+  "size": "8 lô, C=1",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 1,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 1,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 1,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 1,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-D01",
+  "module": "m4",
+  "group": "dac-biet",
+  "title": "Bẫy First-Fit",
+  "size": "8 lô, C=10",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 5,
+    "ms": 0.06
+   },
+   "ffd": {
+    "result": 4,
+    "ms": 0.05
+   },
+   "bfd": {
+    "result": 4,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 4,
+    "ms": 0.14
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-D02",
+  "module": "m4",
+  "group": "dac-biet",
+  "title": "Lô nhỏ xen kẽ, tổng khít tải trọng",
+  "size": "8 lô, C=12",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 3,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-D03",
+  "module": "m4",
+  "group": "dac-biet",
+  "title": "Nhiều lô cùng khối lượng",
+  "size": "9 lô, C=12",
+  "wall_ms": 0.6,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 5,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 5,
+    "ms": 0.05
+   },
+   "bfd": {
+    "result": 5,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 5,
+    "ms": 0.48
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-D04",
+  "module": "m4",
+  "group": "dac-biet",
+  "title": "Hai nhóm kích thước",
+  "size": "8 lô, C=10",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 4,
+    "ms": 0.04
+   },
+   "ffd": {
+    "result": 4,
+    "ms": 0.05
+   },
+   "bfd": {
+    "result": 4,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 4,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-L01",
+  "module": "m4",
+  "group": "lon",
+  "title": "18 lô dựng sẵn (tối ưu = 6)",
+  "size": "18 lô, C=30",
+  "wall_ms": 47.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 7,
+    "ms": 0.11
+   },
+   "ffd": {
+    "result": 7,
+    "ms": 0.15
+   },
+   "bfd": {
+    "result": 7,
+    "ms": 0.17
+   },
+   "bt": {
+    "result": 6,
+    "ms": 46.62
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-L02",
+  "module": "m4",
+  "group": "lon",
+  "title": "60 lô dựng sẵn (tối ưu = 15)",
+  "size": "60 lô, C=100",
+  "wall_ms": 1502.0,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian, hơn tối ưu 1 thùng",
+  "algos": {
+   "ff": {
+    "result": 16,
+    "ms": 0.54
+   },
+   "ffd": {
+    "result": 16,
+    "ms": 0.61
+   },
+   "bfd": {
+    "result": 16,
+    "ms": 0.65
+   },
+   "bt": {
+    "result": 16,
+    "ms": 1500.1
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-L03",
+  "module": "m4",
+  "group": "lon",
+  "title": "60 lô ngẫu nhiên",
+  "size": "60 lô, C=100",
+  "wall_ms": 32.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 20,
+    "ms": 0.59
+   },
+   "ffd": {
+    "result": 19,
+    "ms": 0.79
+   },
+   "bfd": {
+    "result": 19,
+    "ms": 1.17
+   },
+   "bt": {
+    "result": 19,
+    "ms": 29.55
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-L04",
+  "module": "m4",
+  "group": "lon",
+  "title": "40 lô, mỗi lô > C/3",
+  "size": "40 lô, C=100",
+  "wall_ms": 1502.3,
+  "errors": [],
+  "note": "BT chạm giới hạn thời gian (không có đáp án tham chiếu)",
+  "algos": {
+   "ff": {
+    "result": 25,
+    "ms": 0.52
+   },
+   "ffd": {
+    "result": 23,
+    "ms": 1.13
+   },
+   "bfd": {
+    "result": 23,
+    "ms": 0.55
+   },
+   "bt": {
+    "result": 23,
+    "ms": 1500.09
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-N01",
+  "module": "m4",
+  "group": "nho",
+  "title": "1 lô",
+  "size": "1 lô, C=10",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 1,
+    "ms": 0.03
+   },
+   "ffd": {
+    "result": 1,
+    "ms": 0.02
+   },
+   "bfd": {
+    "result": 1,
+    "ms": 0.01
+   },
+   "bt": {
+    "result": 1,
+    "ms": 0.01
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-N02",
+  "module": "m4",
+  "group": "nho",
+  "title": "2 lô vừa một thùng",
+  "size": "2 lô, C=10",
+  "wall_ms": 0.3,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 1,
+    "ms": 0.04
+   },
+   "ffd": {
+    "result": 1,
+    "ms": 0.03
+   },
+   "bfd": {
+    "result": 1,
+    "ms": 0.13
+   },
+   "bt": {
+    "result": 1,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-N03",
+  "module": "m4",
+  "group": "nho",
+  "title": "3 lô, mỗi lô hơn nửa thùng",
+  "size": "3 lô, C=10",
+  "wall_ms": 0.1,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 3,
+    "ms": 0.03
+   },
+   "ffd": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 3,
+    "ms": 0.02
+   },
+   "bt": {
+    "result": 3,
+    "ms": 0.01
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-T01",
+  "module": "m4",
+  "group": "thuong",
+  "title": "Mẫu chính (8 lô, tải 30)",
+  "size": "8 lô, C=30",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "bfd": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 3,
+    "ms": 0.06
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-T02",
+  "module": "m4",
+  "group": "thuong",
+  "title": "8 lô ngẫu nhiên",
+  "size": "8 lô, C=25",
+  "wall_ms": 0.2,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "ffd": {
+    "result": 3,
+    "ms": 0.04
+   },
+   "bfd": {
+    "result": 3,
+    "ms": 0.05
+   },
+   "bt": {
+    "result": 3,
+    "ms": 0.05
+   }
+  },
+  "pass": true
+ },
+ {
+  "id": "m4-T03",
+  "module": "m4",
+  "group": "thuong",
+  "title": "10 lô ngẫu nhiên",
+  "size": "10 lô, C=30",
+  "wall_ms": 1.4,
+  "errors": [],
+  "note": "",
+  "algos": {
+   "ff": {
+    "result": 6,
+    "ms": 0.06
+   },
+   "ffd": {
+    "result": 6,
+    "ms": 0.12
+   },
+   "bfd": {
+    "result": 6,
+    "ms": 0.16
+   },
+   "bt": {
+    "result": 6,
+    "ms": 1.08
+   }
+  },
+  "pass": true
+ }
+]

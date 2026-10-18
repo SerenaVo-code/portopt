@@ -1,0 +1,106 @@
+{
+ "id": "m2-T03",
+ "module": "m2",
+ "group": "thuong",
+ "title": "7 tàu ngẫu nhiên, 4 đội",
+ "desc": "Dữ liệu ngẫu nhiên (seed 212).",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 8,
+    "e": 10,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 14,
+    "e": 19,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 6,
+    "e": 10,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T4",
+    "s": 3,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T5",
+    "s": 6,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T6",
+    "s": 20,
+    "e": 24,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T7",
+    "s": 13,
+    "e": 15,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 130
+   },
+   {
+    "name": "Đội 4",
+    "skills": [
+     "boc"
+    ],
+    "rate": 160
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 2460,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

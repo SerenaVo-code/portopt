@@ -1,0 +1,440 @@
+{
+ "id": "m2-L03",
+ "module": "m2",
+ "group": "lon",
+ "title": "40 tàu, 12 đội",
+ "desc": "Cỡ lớn, nhiều đội: kiểm tra tốc độ và kích thước phản hồi.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 55,
+    "e": 59,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 85,
+    "e": 91,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 63,
+    "e": 65,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T4",
+    "s": 64,
+    "e": 70,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T5",
+    "s": 27,
+    "e": 30,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T6",
+    "s": 15,
+    "e": 18,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T7",
+    "s": 90,
+    "e": 92,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T8",
+    "s": 23,
+    "e": 27,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T9",
+    "s": 88,
+    "e": 92,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T10",
+    "s": 85,
+    "e": 91,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T11",
+    "s": 70,
+    "e": 74,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T12",
+    "s": 53,
+    "e": 57,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T13",
+    "s": 76,
+    "e": 78,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T14",
+    "s": 8,
+    "e": 11,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T15",
+    "s": 8,
+    "e": 14,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T16",
+    "s": 17,
+    "e": 20,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T17",
+    "s": 16,
+    "e": 18,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T18",
+    "s": 17,
+    "e": 20,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T19",
+    "s": 51,
+    "e": 55,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T20",
+    "s": 32,
+    "e": 34,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T21",
+    "s": 62,
+    "e": 66,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T22",
+    "s": 23,
+    "e": 25,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T23",
+    "s": 32,
+    "e": 35,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T24",
+    "s": 9,
+    "e": 11,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T25",
+    "s": 71,
+    "e": 74,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T26",
+    "s": 47,
+    "e": 53,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T27",
+    "s": 11,
+    "e": 13,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T28",
+    "s": 33,
+    "e": 39,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T29",
+    "s": 77,
+    "e": 81,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T30",
+    "s": 45,
+    "e": 49,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T31",
+    "s": 77,
+    "e": 79,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T32",
+    "s": 35,
+    "e": 41,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T33",
+    "s": 12,
+    "e": 14,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T34",
+    "s": 50,
+    "e": 56,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T35",
+    "s": 29,
+    "e": 35,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T36",
+    "s": 4,
+    "e": 7,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T37",
+    "s": 51,
+    "e": 57,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T38",
+    "s": 6,
+    "e": 9,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T39",
+    "s": 79,
+    "e": 82,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T40",
+    "s": 38,
+    "e": 42,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 80
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 150
+   },
+   {
+    "name": "Đội 4",
+    "skills": [
+     "boc"
+    ],
+    "rate": 80
+   },
+   {
+    "name": "Đội 5",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 6",
+    "skills": [
+     "boc"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 7",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 8",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 9",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 80
+   },
+   {
+    "name": "Đội 10",
+    "skills": [
+     "boc"
+    ],
+    "rate": 80
+   },
+   {
+    "name": "Đội 11",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 12",
+    "skills": [
+     "boc"
+    ],
+    "rate": 80
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "status": 200
+ }
+}

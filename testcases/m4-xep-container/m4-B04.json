@@ -1,0 +1,29 @@
+{
+ "id": "m4-B04",
+ "module": "m4",
+ "group": "bien",
+ "title": "Số thập phân gây sai số (0,1 + 0,2 + 0,3)",
+ "desc": "0,1 + 0,2 + 0,3 = 0,6000000000000001 trong dấu phẩy động: phải vẫn vừa thùng 0,6.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 0.1
+   },
+   {
+    "name": "C2",
+    "w": 0.2
+   },
+   {
+    "name": "C3",
+    "w": 0.3
+   }
+  ],
+  "C": 0.6
+ },
+ "expect": {
+  "opt": 1,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

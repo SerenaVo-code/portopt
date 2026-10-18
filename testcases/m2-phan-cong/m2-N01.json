@@ -1,0 +1,35 @@
+{
+ "id": "m2-N01",
+ "module": "m2",
+ "group": "nho",
+ "title": "1 tàu, 1 đội",
+ "desc": "Cỡ nhỏ nhất.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 8,
+    "e": 12,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 400,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "m1-B03",
+ "module": "m1",
+ "group": "bien",
+ "title": "Hai tàu chồng sát 0,5 giờ",
+ "desc": "Chồng giờ rất ít vẫn bắt buộc 2 hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 2",
+    "s": 11.5,
+    "e": 16
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 285.0,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "m1-B01",
+ "module": "m1",
+ "group": "bien",
+ "title": "Chỉ 1 tàu",
+ "desc": "Cỡ nhỏ nhất cho phép: một hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8,
+    "e": 12
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 140,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

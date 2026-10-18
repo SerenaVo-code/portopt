@@ -1,0 +1,29 @@
+{
+ "id": "m1-N01",
+ "module": "m1",
+ "group": "nho",
+ "title": "2 tàu rời nhau",
+ "desc": "Hai tàu không chồng giờ, F lớn nên gộp một hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 0,
+    "e": 2
+   },
+   {
+    "name": "Tàu 2",
+    "s": 5,
+    "e": 7
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 5
+ },
+ "expect": {
+  "opt": 135,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

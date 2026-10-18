@@ -1,0 +1,39 @@
+{
+ "id": "m1-B08",
+ "module": "m1",
+ "group": "bien",
+ "title": "Giờ lẻ 0,25",
+ "desc": "Kiểm tra sai số dấu phẩy động khi cộng/so sánh giờ lẻ.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8.25,
+    "e": 10.75
+   },
+   {
+    "name": "Tàu 2",
+    "s": 10.75,
+    "e": 12.25
+   },
+   {
+    "name": "Tàu 3",
+    "s": 9.5,
+    "e": 11.5
+   },
+   {
+    "name": "Tàu 4",
+    "s": 12.25,
+    "e": 14.75
+   }
+  ],
+  "pairs": [],
+  "F": 75,
+  "r": 12.5
+ },
+ "expect": {
+  "opt": 256.25,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

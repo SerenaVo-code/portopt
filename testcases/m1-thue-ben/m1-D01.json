@@ -1,0 +1,69 @@
+{
+ "id": "m1-D01",
+ "module": "m1",
+ "group": "dac-biet",
+ "title": "10 tàu trùng giờ hoàn toàn",
+ "desc": "Đồ thị đầy đủ K10: bắt buộc 10 hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 2",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 3",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 4",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 5",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 6",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 7",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 8",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 9",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 10",
+    "s": 8,
+    "e": 12
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 1400,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

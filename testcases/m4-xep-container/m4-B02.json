@@ -1,0 +1,41 @@
+{
+ "id": "m4-B02",
+ "module": "m4",
+ "group": "bien",
+ "title": "Hai lô cộng đúng bằng tải trọng",
+ "desc": "Ghép được đúng khít, kiểm tra dấu ≤.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 3
+   },
+   {
+    "name": "C2",
+    "w": 7
+   },
+   {
+    "name": "C3",
+    "w": 4
+   },
+   {
+    "name": "C4",
+    "w": 6
+   },
+   {
+    "name": "C5",
+    "w": 5
+   },
+   {
+    "name": "C6",
+    "w": 5
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 3,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "id": "m3-N01",
+ "module": "m3",
+ "group": "nho",
+ "title": "1 yêu cầu vừa quỹ",
+ "desc": "Lấy được.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 5,
+    "v": 40
+   }
+  ],
+  "W": 8
+ },
+ "expect": {
+  "opt": 40,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

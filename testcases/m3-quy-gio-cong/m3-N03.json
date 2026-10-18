@@ -1,0 +1,32 @@
+{
+ "id": "m3-N03",
+ "module": "m3",
+ "group": "nho",
+ "title": "3 yêu cầu lấy hết",
+ "desc": "Tổng trọng lượng ≤ quỹ.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 2,
+    "v": 10
+   },
+   {
+    "name": "Y2",
+    "w": 3,
+    "v": 20
+   },
+   {
+    "name": "Y3",
+    "w": 1,
+    "v": 5
+   }
+  ],
+  "W": 10
+ },
+ "expect": {
+  "opt": 35,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

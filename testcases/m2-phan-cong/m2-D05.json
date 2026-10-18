@@ -1,0 +1,61 @@
+{
+ "id": "m2-D05",
+ "module": "m2",
+ "group": "dac-biet",
+ "title": "Đội 'lạnh' rẻ hơn đội thường",
+ "desc": "Kỹ năng nhiều hơn không có nghĩa là đắt hơn; tham lam theo giờ đến chiếm sai đội nên không gán đủ tàu, quay lui vẫn tìm ra nghiệm.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 3,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 1,
+    "e": 4,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 5,
+    "e": 8,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 60
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 660,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

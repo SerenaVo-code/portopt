@@ -1,0 +1,72 @@
+{
+ "id": "m1-T04",
+ "module": "m1",
+ "group": "thuong",
+ "title": "8 tàu ngẫu nhiên, 3 cặp ràng buộc",
+ "desc": "Thêm 3 cặp bị cấm chung hợp đồng ngoài ràng buộc thời gian.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 11.0,
+    "e": 14.0
+   },
+   {
+    "name": "Tàu 2",
+    "s": 5.0,
+    "e": 9.0
+   },
+   {
+    "name": "Tàu 3",
+    "s": 21.0,
+    "e": 23.0
+   },
+   {
+    "name": "Tàu 4",
+    "s": 10.5,
+    "e": 13.0
+   },
+   {
+    "name": "Tàu 5",
+    "s": 14.0,
+    "e": 16.5
+   },
+   {
+    "name": "Tàu 6",
+    "s": 1.5,
+    "e": 6.0
+   },
+   {
+    "name": "Tàu 7",
+    "s": 7.0,
+    "e": 11.0
+   },
+   {
+    "name": "Tàu 8",
+    "s": 21.0,
+    "e": 25.0
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "F": 200,
+  "r": 15
+ },
+ "expect": {
+  "opt": 1022.5,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

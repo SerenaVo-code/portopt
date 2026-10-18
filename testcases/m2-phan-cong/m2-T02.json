@@ -1,0 +1,108 @@
+{
+ "id": "m2-T02",
+ "module": "m2",
+ "group": "thuong",
+ "title": "Có cặp ràng buộc thêm",
+ "desc": "Hai tàu bị cấm chung đội dù không trùng giờ.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 6,
+    "e": 10,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 8,
+    "e": 14,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 11,
+    "e": 15,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T4",
+    "s": 13,
+    "e": 18,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T5",
+    "s": 15,
+    "e": 19,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T6",
+    "s": 16,
+    "e": 22,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 130
+   },
+   {
+    "name": "Đội 4",
+    "skills": [
+     "boc"
+    ],
+    "rate": 160
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    2
+   ],
+   [
+    3,
+    5
+   ]
+  ]
+ },
+ "expect": {
+  "opt": 3100,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

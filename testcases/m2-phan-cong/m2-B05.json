@@ -1,0 +1,65 @@
+{
+ "id": "m2-B05",
+ "module": "m2",
+ "group": "bien",
+ "title": "Số đội đúng bằng số tàu chồng nhau",
+ "desc": "Mọi tàu trùng giờ và vừa đủ đội: vô nghiệm nếu thiếu đúng 1 đội.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 1200,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "m1-D06",
+ "module": "m1",
+ "group": "dac-biet",
+ "title": "Cùng giờ đến, khác giờ rời",
+ "desc": "Nhiều tàu trùng giờ đến: kiểm tra thứ tự phá hoà.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8,
+    "e": 9
+   },
+   {
+    "name": "Tàu 2",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 3",
+    "s": 8,
+    "e": 10
+   },
+   {
+    "name": "Tàu 4",
+    "s": 8,
+    "e": 11
+   },
+   {
+    "name": "Tàu 5",
+    "s": 12,
+    "e": 14
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 520,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

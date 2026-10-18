@@ -1,0 +1,25 @@
+{
+ "id": "m4-N02",
+ "module": "m4",
+ "group": "nho",
+ "title": "2 lô vừa một thùng",
+ "desc": "Tổng ≤ tải trọng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 4
+   },
+   {
+    "name": "C2",
+    "w": 5
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 1,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

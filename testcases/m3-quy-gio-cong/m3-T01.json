@@ -1,0 +1,37 @@
+{
+ "id": "m3-T01",
+ "module": "m3",
+ "group": "thuong",
+ "title": "Mẫu chính (4 yêu cầu, quỹ 8 giờ)",
+ "desc": "Ví dụ dùng trong report: tham lam theo giá trị/giờ được 100, tối ưu 110.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 3,
+    "v": 40
+   },
+   {
+    "name": "Y2",
+    "w": 4,
+    "v": 50
+   },
+   {
+    "name": "Y3",
+    "w": 5,
+    "v": 70
+   },
+   {
+    "name": "Y4",
+    "w": 2,
+    "v": 30
+   }
+  ],
+  "W": 8
+ },
+ "expect": {
+  "opt": 110,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

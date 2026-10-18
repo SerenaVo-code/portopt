@@ -1,0 +1,33 @@
+{
+ "id": "m4-B01",
+ "module": "m4",
+ "group": "bien",
+ "title": "Mọi lô đúng bằng tải trọng",
+ "desc": "w = C: mỗi lô một thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 10
+   },
+   {
+    "name": "C2",
+    "w": 10
+   },
+   {
+    "name": "C3",
+    "w": 10
+   },
+   {
+    "name": "C4",
+    "w": 10
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 4,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

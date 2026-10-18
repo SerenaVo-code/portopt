@@ -1,0 +1,53 @@
+{
+ "id": "m4-D03",
+ "module": "m4",
+ "group": "dac-biet",
+ "title": "Nhiều lô cùng khối lượng",
+ "desc": "Kiểm tra bỏ qua đối xứng khi quay lui.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 5
+   },
+   {
+    "name": "C2",
+    "w": 5
+   },
+   {
+    "name": "C3",
+    "w": 5
+   },
+   {
+    "name": "C4",
+    "w": 5
+   },
+   {
+    "name": "C5",
+    "w": 5
+   },
+   {
+    "name": "C6",
+    "w": 5
+   },
+   {
+    "name": "C7",
+    "w": 5
+   },
+   {
+    "name": "C8",
+    "w": 5
+   },
+   {
+    "name": "C9",
+    "w": 5
+   }
+  ],
+  "C": 12
+ },
+ "expect": {
+  "opt": 5,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

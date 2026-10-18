@@ -1,0 +1,53 @@
+{
+ "id": "m4-B03",
+ "module": "m4",
+ "group": "bien",
+ "title": "Mọi lô rất nhỏ",
+ "desc": "Tất cả vào 1 thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 1
+   },
+   {
+    "name": "C2",
+    "w": 1
+   },
+   {
+    "name": "C3",
+    "w": 1
+   },
+   {
+    "name": "C4",
+    "w": 1
+   },
+   {
+    "name": "C5",
+    "w": 1
+   },
+   {
+    "name": "C6",
+    "w": 1
+   },
+   {
+    "name": "C7",
+    "w": 1
+   },
+   {
+    "name": "C8",
+    "w": 1
+   },
+   {
+    "name": "C9",
+    "w": 1
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 1,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

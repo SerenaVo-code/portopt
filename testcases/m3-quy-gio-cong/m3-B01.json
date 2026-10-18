@@ -1,0 +1,27 @@
+{
+ "id": "m3-B01",
+ "module": "m3",
+ "group": "bien",
+ "title": "Quỹ = 0",
+ "desc": "Không lấy được gì (mọi w ≥ 1): đáp án 0.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 1,
+    "v": 10
+   },
+   {
+    "name": "Y2",
+    "w": 2,
+    "v": 20
+   }
+  ],
+  "W": 0
+ },
+ "expect": {
+  "opt": 0.0,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

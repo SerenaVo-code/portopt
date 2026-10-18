@@ -1,0 +1,67 @@
+{
+ "id": "m3-T03",
+ "module": "m3",
+ "group": "thuong",
+ "title": "10 yêu cầu ngẫu nhiên",
+ "desc": "Dữ liệu ngẫu nhiên (seed 312).",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 11,
+    "v": 23
+   },
+   {
+    "name": "Y2",
+    "w": 11,
+    "v": 53
+   },
+   {
+    "name": "Y3",
+    "w": 1,
+    "v": 23
+   },
+   {
+    "name": "Y4",
+    "w": 6,
+    "v": 34
+   },
+   {
+    "name": "Y5",
+    "w": 4,
+    "v": 63
+   },
+   {
+    "name": "Y6",
+    "w": 11,
+    "v": 61
+   },
+   {
+    "name": "Y7",
+    "w": 2,
+    "v": 43
+   },
+   {
+    "name": "Y8",
+    "w": 12,
+    "v": 47
+   },
+   {
+    "name": "Y9",
+    "w": 3,
+    "v": 5
+   },
+   {
+    "name": "Y10",
+    "w": 6,
+    "v": 39
+   }
+  ],
+  "W": 30
+ },
+ "expect": {
+  "opt": 263,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

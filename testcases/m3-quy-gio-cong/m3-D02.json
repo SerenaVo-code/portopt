@@ -1,0 +1,32 @@
+{
+ "id": "m3-D02",
+ "module": "m3",
+ "group": "dac-biet",
+ "title": "Bẫy tham lam",
+ "desc": "Yêu cầu tỉ lệ cao nhất chiếm quỹ làm mất cơ hội ghép hai yêu cầu cân hơn.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 1,
+    "v": 10
+   },
+   {
+    "name": "Y2",
+    "w": 6,
+    "v": 33
+   },
+   {
+    "name": "Y3",
+    "w": 6,
+    "v": 33
+   }
+  ],
+  "W": 12
+ },
+ "expect": {
+  "opt": 66,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

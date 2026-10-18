@@ -1,0 +1,68 @@
+{
+ "id": "m1-T02",
+ "module": "m1",
+ "group": "thuong",
+ "title": "Bốn thuật toán cho bốn kết quả khác nhau",
+ "desc": "Bộ dữ liệu làm lộ rõ khác biệt giữa tham lam, tham lam theo chi phí, DSATUR và quay lui.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 17.5,
+    "e": 21.5
+   },
+   {
+    "name": "Tàu 2",
+    "s": 10,
+    "e": 15.5
+   },
+   {
+    "name": "Tàu 3",
+    "s": 18.5,
+    "e": 22.5
+   },
+   {
+    "name": "Tàu 4",
+    "s": 13.5,
+    "e": 17
+   },
+   {
+    "name": "Tàu 5",
+    "s": 14.5,
+    "e": 18.5
+   },
+   {
+    "name": "Tàu 6",
+    "s": 6,
+    "e": 10.5
+   },
+   {
+    "name": "Tàu 7",
+    "s": 16,
+    "e": 20.5
+   },
+   {
+    "name": "Tàu 8",
+    "s": 11,
+    "e": 13.5
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    5
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "F": 500,
+  "r": 40
+ },
+ "expect": {
+  "opt": 2900.0,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

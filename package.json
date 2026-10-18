@@ -1,0 +1,9 @@
+{
+  "name": "berth-contract-coloring",
+  "private": true,
+  "scripts": {
+    "setup": "pip install -r backend/requirements.txt && npm --prefix frontend install --no-audit --no-fund",
+    "dev": "npx -y concurrently@9.1.0 -k -n be,fe -c blue,magenta \"cd backend && python -m uvicorn server:app --host 0.0.0.0 --port 8000\" \"npm --prefix frontend run dev\"",
+    "test": "python -m pytest tests"
+  }
+}

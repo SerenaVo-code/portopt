@@ -1,0 +1,39 @@
+{
+ "id": "m1-N03",
+ "module": "m1",
+ "group": "nho",
+ "title": "4 tàu nối chuỗi",
+ "desc": "Tàu i chồng tàu i+1: hai hợp đồng luân phiên là đủ.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 0,
+    "e": 4
+   },
+   {
+    "name": "Tàu 2",
+    "s": 3,
+    "e": 7
+   },
+   {
+    "name": "Tàu 3",
+    "s": 6,
+    "e": 10
+   },
+   {
+    "name": "Tàu 4",
+    "s": 9,
+    "e": 13
+   }
+  ],
+  "pairs": [],
+  "F": 80,
+  "r": 8
+ },
+ "expect": {
+  "opt": 320,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

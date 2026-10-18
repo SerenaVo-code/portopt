@@ -1,0 +1,32 @@
+{
+ "id": "m3-B03",
+ "module": "m3",
+ "group": "bien",
+ "title": "Mọi yêu cầu đều quá nặng",
+ "desc": "Mọi w > W: đáp án 0, DP không có ô 'lấy' nào.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 9,
+    "v": 90
+   },
+   {
+    "name": "Y2",
+    "w": 12,
+    "v": 100
+   },
+   {
+    "name": "Y3",
+    "w": 15,
+    "v": 150
+   }
+  ],
+  "W": 8
+ },
+ "expect": {
+  "opt": 0.0,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

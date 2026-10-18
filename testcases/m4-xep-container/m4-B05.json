@@ -1,0 +1,49 @@
+{
+ "id": "m4-B05",
+ "module": "m4",
+ "group": "bien",
+ "title": "Khối lượng bằng 0,01 (rất nhỏ)",
+ "desc": "Kiểm tra lô cực nhẹ: gộp hết một thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 0.01
+   },
+   {
+    "name": "C2",
+    "w": 0.01
+   },
+   {
+    "name": "C3",
+    "w": 0.01
+   },
+   {
+    "name": "C4",
+    "w": 0.01
+   },
+   {
+    "name": "C5",
+    "w": 0.01
+   },
+   {
+    "name": "C6",
+    "w": 0.01
+   },
+   {
+    "name": "C7",
+    "w": 0.01
+   },
+   {
+    "name": "C8",
+    "w": 0.01
+   }
+  ],
+  "C": 1
+ },
+ "expect": {
+  "opt": 1,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

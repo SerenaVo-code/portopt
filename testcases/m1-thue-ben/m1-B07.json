@@ -1,0 +1,39 @@
+{
+ "id": "m1-B07",
+ "module": "m1",
+ "group": "bien",
+ "title": "Tàu qua đêm (giờ > 24)",
+ "desc": "Giờ rời 30 nghĩa là 06:00 hôm sau; giao diện hiển thị +1d.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 22,
+    "e": 30
+   },
+   {
+    "name": "Tàu 2",
+    "s": 23,
+    "e": 27
+   },
+   {
+    "name": "Tàu 3",
+    "s": 28,
+    "e": 33
+   },
+   {
+    "name": "Tàu 4",
+    "s": 0,
+    "e": 5
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 530,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

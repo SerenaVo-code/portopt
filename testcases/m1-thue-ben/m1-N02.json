@@ -1,0 +1,34 @@
+{
+ "id": "m1-N02",
+ "module": "m1",
+ "group": "nho",
+ "title": "3 tàu chồng giờ hoàn toàn",
+ "desc": "Cả ba cùng cập lúc: cần 3 hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 1,
+    "e": 5
+   },
+   {
+    "name": "Tàu 2",
+    "s": 2,
+    "e": 6
+   },
+   {
+    "name": "Tàu 3",
+    "s": 3,
+    "e": 7
+   }
+  ],
+  "pairs": [],
+  "F": 50,
+  "r": 10
+ },
+ "expect": {
+  "opt": 270,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

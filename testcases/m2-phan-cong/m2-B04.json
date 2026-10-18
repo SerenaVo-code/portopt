@@ -1,0 +1,65 @@
+{
+ "id": "m2-B04",
+ "module": "m2",
+ "group": "bien",
+ "title": "Các đội cùng đơn giá",
+ "desc": "Nhiều nghiệm tối ưu, thuật toán phải xử lý hoà.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 1,
+    "e": 5,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 2,
+    "e": 6,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 1200,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

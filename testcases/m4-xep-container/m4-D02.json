@@ -1,0 +1,49 @@
+{
+ "id": "m4-D02",
+ "module": "m4",
+ "group": "dac-biet",
+ "title": "Lô nhỏ xen kẽ, tổng khít tải trọng",
+ "desc": "Nhiều lô nhỏ xen kẽ: kiểm tra các heuristic có bám được tối ưu khi tổng khít tải trọng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 5
+   },
+   {
+    "name": "C2",
+    "w": 5
+   },
+   {
+    "name": "C3",
+    "w": 4
+   },
+   {
+    "name": "C4",
+    "w": 4
+   },
+   {
+    "name": "C5",
+    "w": 3
+   },
+   {
+    "name": "C6",
+    "w": 3
+   },
+   {
+    "name": "C7",
+    "w": 3
+   },
+   {
+    "name": "C8",
+    "w": 3
+   }
+  ],
+  "C": 12
+ },
+ "expect": {
+  "opt": 3,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

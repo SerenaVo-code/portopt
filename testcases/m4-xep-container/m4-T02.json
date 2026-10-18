@@ -1,0 +1,49 @@
+{
+ "id": "m4-T02",
+ "module": "m4",
+ "group": "thuong",
+ "title": "8 lô ngẫu nhiên",
+ "desc": "Dữ liệu ngẫu nhiên (seed 412).",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 12
+   },
+   {
+    "name": "C2",
+    "w": 4
+   },
+   {
+    "name": "C3",
+    "w": 6
+   },
+   {
+    "name": "C4",
+    "w": 9
+   },
+   {
+    "name": "C5",
+    "w": 6
+   },
+   {
+    "name": "C6",
+    "w": 12
+   },
+   {
+    "name": "C7",
+    "w": 9
+   },
+   {
+    "name": "C8",
+    "w": 9
+   }
+  ],
+  "C": 25
+ },
+ "expect": {
+  "opt": 3,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

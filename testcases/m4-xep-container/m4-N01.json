@@ -1,0 +1,21 @@
+{
+ "id": "m4-N01",
+ "module": "m4",
+ "group": "nho",
+ "title": "1 lô",
+ "desc": "Cần đúng 1 thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 7
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 1,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "m3-D04",
+ "module": "m3",
+ "group": "dac-biet",
+ "title": "Nhiều yêu cầu trùng hệt nhau",
+ "desc": "6 yêu cầu giống nhau, quỹ chỉ đủ 3.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 4,
+    "v": 10
+   },
+   {
+    "name": "Y2",
+    "w": 4,
+    "v": 10
+   },
+   {
+    "name": "Y3",
+    "w": 4,
+    "v": 10
+   },
+   {
+    "name": "Y4",
+    "w": 4,
+    "v": 10
+   },
+   {
+    "name": "Y5",
+    "w": 4,
+    "v": 10
+   },
+   {
+    "name": "Y6",
+    "w": 4,
+    "v": 10
+   }
+  ],
+  "W": 12
+ },
+ "expect": {
+  "opt": 30,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

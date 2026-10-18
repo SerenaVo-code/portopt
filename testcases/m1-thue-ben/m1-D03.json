@@ -1,0 +1,65 @@
+{
+ "id": "m1-D03",
+ "module": "m1",
+ "group": "dac-biet",
+ "title": "Chu trình lẻ C5 do ràng buộc thêm",
+ "desc": "5 tàu rời nhau nhưng 5 cặp cấm tạo chu trình lẻ: cần 3 hợp đồng. Đồ thị không còn là đồ thị khoảng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 0,
+    "e": 2
+   },
+   {
+    "name": "Tàu 2",
+    "s": 3,
+    "e": 5
+   },
+   {
+    "name": "Tàu 3",
+    "s": 6,
+    "e": 8
+   },
+   {
+    "name": "Tàu 4",
+    "s": 9,
+    "e": 11
+   },
+   {
+    "name": "Tàu 5",
+    "s": 12,
+    "e": 14
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    0
+   ]
+  ],
+  "F": 100,
+  "r": 5
+ },
+ "expect": {
+  "opt": 390,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

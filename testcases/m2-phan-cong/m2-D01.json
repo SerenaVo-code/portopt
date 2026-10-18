@@ -1,0 +1,50 @@
+{
+ "id": "m2-D01",
+ "module": "m2",
+ "group": "dac-biet",
+ "title": "Vô nghiệm: thiếu kỹ năng",
+ "desc": "Tàu cần kỹ năng 'lanh' nhưng không đội nào có.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 5,
+    "e": 8,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 80
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "feasible": false,
+  "opt": null,
+  "status": 200
+ }
+}

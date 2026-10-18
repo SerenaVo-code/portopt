@@ -1,0 +1,57 @@
+{
+ "id": "m2-D02",
+ "module": "m2",
+ "group": "dac-biet",
+ "title": "Vô nghiệm: thiếu đội",
+ "desc": "3 tàu trùng giờ nhưng chỉ có 2 đội.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 0,
+    "e": 4,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 80
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "feasible": false,
+  "opt": null,
+  "status": 200
+ }
+}

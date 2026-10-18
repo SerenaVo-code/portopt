@@ -1,0 +1,27 @@
+{
+ "id": "m3-N02",
+ "module": "m3",
+ "group": "nho",
+ "title": "2 yêu cầu, chỉ lấy được một",
+ "desc": "Tổng trọng lượng vượt quỹ.",
+ "input": {
+  "items": [
+   {
+    "name": "Y1",
+    "w": 6,
+    "v": 30
+   },
+   {
+    "name": "Y2",
+    "w": 6,
+    "v": 50
+   }
+  ],
+  "W": 8
+ },
+ "expect": {
+  "opt": 50,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

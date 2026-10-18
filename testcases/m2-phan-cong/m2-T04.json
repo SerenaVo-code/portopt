@@ -1,0 +1,125 @@
+{
+ "id": "m2-T04",
+ "module": "m2",
+ "group": "thuong",
+ "title": "8 tàu ngẫu nhiên, 5 đội",
+ "desc": "Cỡ lớn nhất còn vét cạn kiểm chứng được.",
+ "input": {
+  "ships": [
+   {
+    "name": "T1",
+    "s": 5,
+    "e": 7,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T2",
+    "s": 9,
+    "e": 11,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T3",
+    "s": 6,
+    "e": 9,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T4",
+    "s": 18,
+    "e": 22,
+    "need": [
+     "boc",
+     "lanh"
+    ]
+   },
+   {
+    "name": "T5",
+    "s": 9,
+    "e": 11,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T6",
+    "s": 8,
+    "e": 12,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T7",
+    "s": 3,
+    "e": 7,
+    "need": [
+     "boc"
+    ]
+   },
+   {
+    "name": "T8",
+    "s": 24,
+    "e": 28,
+    "need": [
+     "boc"
+    ]
+   }
+  ],
+  "teams": [
+   {
+    "name": "Đội 1",
+    "skills": [
+     "boc"
+    ],
+    "rate": 100
+   },
+   {
+    "name": "Đội 2",
+    "skills": [
+     "boc"
+    ],
+    "rate": 90
+   },
+   {
+    "name": "Đội 3",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 130
+   },
+   {
+    "name": "Đội 4",
+    "skills": [
+     "boc"
+    ],
+    "rate": 160
+   },
+   {
+    "name": "Đội 5",
+    "skills": [
+     "boc",
+     "lanh"
+    ],
+    "rate": 120
+   }
+  ],
+  "pairs": []
+ },
+ "expect": {
+  "opt": 2620,
+  "opt_source": "vét cạn",
+  "feasible": true,
+  "status": 200
+ }
+}

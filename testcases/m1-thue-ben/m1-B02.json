@@ -1,0 +1,29 @@
+{
+ "id": "m1-B02",
+ "module": "m1",
+ "group": "bien",
+ "title": "Hai tàu chạm đầu mút (rời = đến)",
+ "desc": "Tàu 1 rời đúng lúc tàu 2 đến: không tính là chồng, được chung hợp đồng.",
+ "input": {
+  "ships": [
+   {
+    "name": "Tàu 1",
+    "s": 8,
+    "e": 12
+   },
+   {
+    "name": "Tàu 2",
+    "s": 12,
+    "e": 16
+   }
+  ],
+  "pairs": [],
+  "F": 100,
+  "r": 10
+ },
+ "expect": {
+  "opt": 180,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}

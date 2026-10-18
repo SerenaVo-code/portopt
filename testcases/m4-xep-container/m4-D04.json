@@ -1,0 +1,49 @@
+{
+ "id": "m4-D04",
+ "module": "m4",
+ "group": "dac-biet",
+ "title": "Hai nhóm kích thước",
+ "desc": "Lô lớn và lô nhỏ xen kẽ: ghép lớn + nhỏ khít thùng.",
+ "input": {
+  "items": [
+   {
+    "name": "C1",
+    "w": 7
+   },
+   {
+    "name": "C2",
+    "w": 3
+   },
+   {
+    "name": "C3",
+    "w": 7
+   },
+   {
+    "name": "C4",
+    "w": 3
+   },
+   {
+    "name": "C5",
+    "w": 7
+   },
+   {
+    "name": "C6",
+    "w": 3
+   },
+   {
+    "name": "C7",
+    "w": 7
+   },
+   {
+    "name": "C8",
+    "w": 3
+   }
+  ],
+  "C": 10
+ },
+ "expect": {
+  "opt": 4,
+  "opt_source": "vét cạn",
+  "status": 200
+ }
+}
